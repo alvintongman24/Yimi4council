@@ -1,10 +1,11 @@
 import Image from "next/image";
 import "./globals.css";
 import Navbar from "./Components/Navabr/Navbar.jsx";
-import FirstSection from "./Components/FirstSection/FirstSection.jsx";
+// import FirstSection from "./Components/FirstSection/FirstSection.jsx";
 import SecorndSection from "./Components/SecorndSection/SecorndSection.jsx";
 import ThirdSection from "./Components/ThirdSection/ThirdSection.jsx";
 import FourthSection from "./Components/FourthSection/FourthSection.jsx";
+import Firstsection from "./Components/FirstSection/Firstsection";
 
 export default function Home() {
   return (
@@ -23,7 +24,8 @@ export default function Home() {
       
       <main className="relative">
         <Navbar/>
-        <FirstSection/>
+        <Firstsection/>
+        {/* <FirstSection/> */}
          <SecorndSection/>
          <ThirdSection/>
          <FourthSection/>
